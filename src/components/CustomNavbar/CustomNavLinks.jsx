@@ -1,5 +1,6 @@
-import Nav from "react-bootstrap/Nav";
-const CustomNavLinks = ({ keyLink, link, text }) => {
-  return <Nav.Link key={keyLink} href={link}>{text}</Nav.Link>;
+import { Link } from "react-router-dom";
+const CustomNavLinks = ({ href, text }) => {
+  console.log("test", href, text);
+  return <Link to={href}>{text}</Link>;
 };
 export default CustomNavLinks;
