@@ -1,0 +1,35 @@
+ 
+
+.divtodo{
+      
+    border-radius: 5px;
+    border:blanchedalmond inset 2px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+li{
+    color:grey !important;
+}
+.container{
+    padding: 80px;
+    color:#432194;
+    font-weight:bold;
+}
+.a1{
+    background-color: chartreuse;
+}
+h1{
+    color:#b0669f;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+ 
+.pad{
+    margin-top: 10px;
+}
+.classtime{
+    width:250px;
+}
+ 
